@@ -36,18 +36,11 @@ export const useRecipeStore = defineStore('recipe', () => {
   }
 
   const updateRecipe = async (id, updatedRecipe) => {
-    updatedRecipe = {
-      titre: "mise a  nuit",
-      ingredient: "test test test",
-      type: "Entrée",
-      id_categorie: 2
-  }
   try {
       const response =  await axios.put(
           `http://localhost:3000/recettes/${id}`,
            updatedRecipe
         )
-        console.log('response awa', response.data)
         } catch(erro){
           console.error(erro.messahe)
         }
