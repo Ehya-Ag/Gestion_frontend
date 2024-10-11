@@ -31,7 +31,11 @@ Vous aurez également besoin d'un accès à une API pour gérer les recettes et 
 
    ```bash
    git clone https://github.com/Ehya-Ag/Gestion_frontend.git
-   cd gestion_recipe
+   ```
+   ```
+   cd Gestion_frontend
+   ```
+   
 
 2. **Installer les dépendances**
 
